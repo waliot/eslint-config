@@ -1,12 +1,12 @@
 # Waliot ESLint config
 
 [![Waliot](https://raw.githubusercontent.com/waliot/waliot/main/assets/waliot-tech-badge.svg)](https://github.com/waliot)
-![npm](https://img.shields.io/npm/v/@waliot-oss/eslint-typescript-config)
+![npm](https://img.shields.io/npm/v/@waliot-oss/eslint-config)
 
 ## Install
 
 ```bash
-npm install --save-dev @waliot-oss/eslint-typescript-config
+npm install --save-dev @waliot-oss/eslint-config
 ```
 
 ## Usage
@@ -16,12 +16,10 @@ In yours eslint config file add:
 ```json
 {
   "extends": [
-    "@waliot-oss/eslint-typescript-config"
+    "@waliot-oss/eslint-config"
   ]
 }
 ```
-
-see more on [Configuring TSLint](https://palantir.github.io/tslint/usage/configuration/).
 
 ## Maintainers
 

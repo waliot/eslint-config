@@ -1,15 +1,21 @@
 {
-  "name": "@waliot-oss/eslint-typescript-config",
+  "name": "@waliot-oss/eslint-config",
   "version": "1.0.2",
-  "description": "Waliot Tech Team eslint typescript config",
+  "description": "Waliot Tech Team eslint config",
   "main": "index.js",
+  "scripts": {
+    "publish": "clean-publish",
+    "version": "npm run version && git add CHANGELOG.md",
+    "changelog-generate": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/waliot/eslint-typescript-config.git"
+    "url": "git+https://github.com/waliot/eslint-config.git"
   },
   "keywords": [
     "waliot-oss",
     "eslint",
+    "eslint-config",
     "typescript"
   ],
   "author": {
@@ -24,13 +30,21 @@
     }
   ],
   "license": "MIT",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "bugs": {
-    "url": "https://github.com/waliot/eslint-typescript-config/issues"
+    "url": "https://github.com/waliot/eslint-config/issues"
   },
-  "homepage": "https://github.com/waliot/eslint-typescript-config#readme",
+  "homepage": "https://github.com/waliot/eslint-config#readme",
   "peerDependencies": {
-    "eslint": ">=8",
+    "@typescript-eslint/eslint-plugin": ">=5",
     "@typescript-eslint/parser": ">=5",
-    "@typescript-eslint/eslint-plugin": ">=5"
+    "eslint": ">=8"
+  },
+  "devDependencies": {
+    "clean-publish": "4.0.2",
+    "conventional-changelog": "3.1.25"
   }
 }
