@@ -2,7 +2,7 @@
   "name": "@waliot-oss/eslint-typescript-config",
   "version": "1.0.1",
   "description": "Waliot Tech Team eslint typescript config",
-  "main": "waliot-eslint-config.json",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/waliot/eslint-typescript-config.git"

@@ -1,4 +1,4 @@
-{
+module.exports = {
   "env": {
     "browser": true,
     "es2021": true
@@ -177,15 +177,8 @@
       "error",
       "never"
     ],
-    // typescript
     "@typescript-eslint/no-inferrable-types": "off",
     "@typescript-eslint/no-explicit-any": "off",
-    //    "@typescript-eslint/no-explicit-any": [
-    //      "error",
-    //      {
-    //        "fixToUnknown": true
-    //      }
-    //    ],
     "@typescript-eslint/typedef": [
       "error",
       {
@@ -206,18 +199,6 @@
       "error"
     ],
     "@typescript-eslint/switch-exhaustiveness-check": "warn",
-    /*"@typescript-eslint/strict-boolean-expressions": [
-      "error",
-      {
-        "allowString": false,
-        "allowNumber": false,
-        "allowNullableObject": false,
-        "allowNullableBoolean": false,
-        "allowNullableString": false,
-        "allowNullableNumber": false,
-        "allowAny": false
-      }
-    ],*/
     "@typescript-eslint/array-type": [
       "error",
       {
