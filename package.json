@@ -1,13 +1,17 @@
 {
   "name": "@waliot-oss/eslint-typescript-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Waliot Tech Team eslint typescript config",
   "main": "waliot-eslint-config.json",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/waliot/eslint-typescript-config.git"
   },
-  "keywords": [ "waliot-oss", "eslint", "typescript" ],
+  "keywords": [
+    "waliot-oss",
+    "eslint",
+    "typescript"
+  ],
   "author": {
     "name": "Waliot",
     "email": "muratov.i@firstmk.ru"
