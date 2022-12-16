@@ -1,6 +1,6 @@
 {
   "name": "@waliot-oss/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Waliot Tech Team eslint config",
   "main": "index.js",
   "scripts": {
