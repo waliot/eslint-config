@@ -45,6 +45,6 @@
   },
   "devDependencies": {
     "clean-publish": "4.0.2",
-    "conventional-changelog": "3.1.25"
+    "conventional-changelog-cli": "2.2.2"
   }
 }
