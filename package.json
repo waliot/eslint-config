@@ -1,0 +1,32 @@
+{
+  "name": "@waliot-oss/eslint-typescript-config",
+  "version": "1.0.0",
+  "description": "Waliot Tech Team eslint typescript config",
+  "main": "waliot-eslint-config.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waliot/eslint-typescript-config.git"
+  },
+  "keywords": [ "waliot-oss", "eslint", "typescript" ],
+  "author": {
+    "name": "Waliot",
+    "email": "muratov.i@firstmk.ru"
+  },
+  "maintainers": [
+    {
+      "name": "Sam Bulatov",
+      "email": "mephistorine@gmail.com",
+      "url": "t.me/mephistorine"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waliot/eslint-typescript-config/issues"
+  },
+  "homepage": "https://github.com/waliot/eslint-typescript-config#readme",
+  "peerDependencies": {
+    "eslint": ">=8",
+    "@typescript-eslint/parser": ">=5",
+    "@typescript-eslint/eslint-plugin": ">=5"
+  }
+}
