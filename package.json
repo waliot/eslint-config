@@ -1,6 +1,6 @@
 {
   "name": "@waliot-oss/eslint-typescript-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Waliot Tech Team eslint typescript config",
   "main": "index.js",
   "repository": {
